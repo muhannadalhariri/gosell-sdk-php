@@ -5,6 +5,7 @@ use TapPayments\GoSell;
 class ChargesTest extends TestCase{
 	public static $id=null;
 	public function __construct(){
+        parent::__construct();
 		GoSell::setPrivateKey("sk_test_XKokBfNWv6FIYuTMg5sLPjhJ");
 	}
 	public function testCreate()

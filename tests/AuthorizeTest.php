@@ -5,6 +5,7 @@ use TapPayments\GoSell;
 class AuthorizeTest extends TestCase{
 	public static $id=null;
 	public function __construct(){
+        parent::__construct();
 		GoSell::setPrivateKey("sk_test_XKokBfNWv6FIYuTMg5sLPjhJ");
 	}
 	public function testCreate()
@@ -69,6 +70,7 @@ class AuthorizeTest extends TestCase{
     }
     public function testVoid(){
       GoSell\Authorize::void(self::$id);
+      $this->assertTrue(true);
     }
     public function testUpdate(){
     	$updated_authorize = GoSell\Authorize::update(self::$id,[

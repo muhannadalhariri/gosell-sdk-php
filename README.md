@@ -1,19 +1,22 @@
 
-![PHP from Packagist (specify version)](https://img.shields.io/packagist/php-v/tappayments/gosell)
+![PHP from Packagist (specify version)](https://img.shields.io/packagist/php-v/muhannadalhariri/gosell)
 [![Latest Stable Version](https://poser.pugx.org/tappayments/gosell/v/stable)](https://packagist.org/packages/tappayments/gosell)
 [![Build Status](https://travis-ci.com/tappayments/gosell.svg?branch=master)](https://travis-ci.com/tappayments/gosell)
 [![Total Downloads](https://poser.pugx.org/tappayments/gosell/downloads)](https://packagist.org/packages/tappayments/gosell)
 [![License](https://poser.pugx.org/tappayments/gosell/license)](https://packagist.org/packages/tappayments/gosell)
 [![Coverage Status](https://coveralls.io/repos/github/tappayments/gosell/badge.svg?branch=master)](https://coveralls.io/github/tappayments/gosell?branch=master)
 
-
+#Notice
+ This is a fork of original TapPayment GoSell https://github.com/Tap-Payments/gosell-sdk-php
+Contains updated php versiont o 8.0+ and updated library.
+The reason behind this fork is to update dependencies
 # GoSell PHP SDK
 Official bindings to GoSell API.
 
 __Note: Detailed REST API request and response schema can be found at [API Documentation](https://tap.company/developers)__
 
 ## Requirements
-This library supports PHP 5.6 and later.
+This library supports PHP 8.0 and later.
 
 ## Installation
 The recommended way to install GoSell PHP SDK is through [Composer](https://getcomposer.org):
