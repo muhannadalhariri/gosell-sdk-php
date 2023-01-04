@@ -1,10 +1,10 @@
 
 ![PHP from Packagist (specify version)](https://img.shields.io/packagist/php-v/muhannadalhariri/gosell)
-[![Latest Stable Version](https://poser.pugx.org/tappayments/gosell/v/stable)](https://packagist.org/packages/tappayments/gosell)
-[![Build Status](https://travis-ci.com/tappayments/gosell.svg?branch=master)](https://travis-ci.com/tappayments/gosell)
-[![Total Downloads](https://poser.pugx.org/tappayments/gosell/downloads)](https://packagist.org/packages/tappayments/gosell)
-[![License](https://poser.pugx.org/tappayments/gosell/license)](https://packagist.org/packages/tappayments/gosell)
-[![Coverage Status](https://coveralls.io/repos/github/tappayments/gosell/badge.svg?branch=master)](https://coveralls.io/github/tappayments/gosell?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/muhannadalhariri/gosell/v/stable)](https://packagist.org/packages/muhannadalhariri/gosell)
+[![Build Status](https://travis-ci.com/muhannadalhariri/gosell.svg?branch=master)](https://travis-ci.com/muhannadalhariri/gosell)
+[![Total Downloads](https://poser.pugx.org/muhannadalhariri/gosell/downloads)](https://packagist.org/packages/muhannadalhariri/gosell)
+[![License](https://poser.pugx.org/muhannadalhariri/gosell/license)](https://packagist.org/packages/muhannadalhariri/gosell)
+[![Coverage Status](https://coveralls.io/repos/github/muhannadalhariri/gosell/badge.svg?branch=master)](https://coveralls.io/github/muhannadalhariri/gosell?branch=master)
 
 #Notice
  This is a fork of original TapPayment GoSell https://github.com/Tap-Payments/gosell-sdk-php
@@ -21,7 +21,7 @@ This library supports PHP 8.0 and later.
 ## Installation
 The recommended way to install GoSell PHP SDK is through [Composer](https://getcomposer.org):
 
-```composer require tappayments/gosell```
+```composer require muhannadalhariri/gosell```
 
 To use the bindings, use Composer's [autoload](https://getcomposer.org/doc/01-basic-usage.md#autoloading):
 
